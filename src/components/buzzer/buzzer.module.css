@@ -1,0 +1,73 @@
+.Buzzer {
+  width: 500px;
+  height: 500px;
+  background-color: #ccc;
+  position: absolute;
+  border-radius: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.MetalDots {
+  margin: auto;
+  background-color: #ccc;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.MetalDot {
+  background: whitesmoke;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.TopDots {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.BottomDots {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  justify-content: space-between;
+}
+
+.RedBorder {
+  margin: auto;
+  background-color: red;
+  border-radius: 75px;
+  width: 375px;
+  height: 375px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.InnerBox {
+  margin: auto;
+  background-color: #ccc;
+  border-radius: 75px;
+  width: 350px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px;
+  height: 350px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}

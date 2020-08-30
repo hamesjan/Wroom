@@ -1,0 +1,17 @@
+.Background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+}
+
+.LeftSide {
+  width: 50%;
+  height: 100%;
+}
+
+.RightSide {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
