@@ -21,7 +21,7 @@ class NewWroom extends Component {
         valid: false,
         touched: false,
       },
-      country: {
+      description: {
         elementType: "textarea",
         elementConfig: {
           type: "text",
@@ -141,7 +141,7 @@ class NewWroom extends Component {
         })}
         <Link to="/wroomcontrol">
           <Button btnType="Success" disabled={!this.state.formIsValid}>
-            ENTER WROOM
+            CREATE WROOM
           </Button>
         </Link>
       </form>

@@ -1,0 +1,10 @@
+.Inline {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  border: 5px solid black;
+  border-radius: 25pxl;
+  padding: 16px;
+  background-color: lightcyan;
+  margin: 10px auto;
+}

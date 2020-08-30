@@ -1,17 +1,22 @@
 .Background {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
+
   display: flex;
 }
 
 .LeftSide {
   width: 50%;
   height: 100%;
+  margin-top: 5%;
 }
 
 .RightSide {
   width: 50%;
-  height: 100%;
-  background-color: red;
+  height: 99%;
+  padding: 16px;
+  box-sizing: bo;
+  background-color: lightblue;
+  overflow: scroll;
 }
